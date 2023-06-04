@@ -12,5 +12,7 @@ namespace Service
     {
 
         LoginService LoginService { get; }
+        ReferenceService ReferenceService { get; set; }
+        UserService userService { get; set; }
     }
 }

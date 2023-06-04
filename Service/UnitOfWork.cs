@@ -23,6 +23,10 @@ namespace Service
 
 
         public LoginService LoginService => new LoginService();
+        public UserService userService { get; set; }
+        public ReferenceService ReferenceService { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+
 
 
 
